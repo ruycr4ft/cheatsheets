@@ -1,2 +1,2 @@
-# cheatsheets
-cheatsheets que he ido creando a la par que estudio ciber seguridad :D
+# ¿Qué es esto?  
+Esto es un repo de github que he creado para ir subiendo mis notas/cheatsheets/apuntes (como quieras llamarlo) por si a alguien le parece útil. Hoy, 14/08/2023 sólo voy a subir mis notas de **Active Directory** ya que las demás están en proceso. Estas tampoco están terminadas ni mucho menos, pero son las únicas que van más avanzadas. También quiero aclarar que **no explico nada**, esto es solo una recopilación de mis conocimientos en unas "chuletillas" para copiar y pegar, para agilizar los CTFs o la velocidad en las certificaciones. Por lo que dejando esto claro, no me vale que me pongáis verde por MDs de discord diciendo que no explico nada ya que **no es mi inteción hacerlo**. Disfruta!
